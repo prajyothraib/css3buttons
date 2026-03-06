@@ -85,3 +85,15 @@ a.button span.icon.uparrow, button span.icon.uparrow { background-position: 0 -8
 a.button:hover span.icon.uparrow, button:hover span.icon.uparrow { background-position: 0 -839px }
 a.button span.icon.user, button span.icon.user { background-position: 0 -854px }
 a.button:hover span.icon.user, button:hover span.icon.user { background-position: 0 -869px }
+.button-gradient {
+  background: linear-gradient(45deg,#4CAF50,#2E7D32);
+  color: white;
+  border-radius: 5px;
+}
+
+.button-outline {
+  background: transparent;
+  border: 2px solid #333;
+  color: #333;
+}
+
